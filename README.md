@@ -2,6 +2,7 @@
 ---
 https://github.com/wjcrowcroft/money.js
 
+https://github.com/openexchangerates
 ```js
 fx.convert(12.99, {from: "GBP", to: "HKD"});
 fx(1000).from("USD").to("GBP");
@@ -13,7 +14,7 @@ require(["money"], function(fx){ /**/ });
 fx.base = "USD";
 fx.rates = {
   "EUR" : 0.745101,
-  "GBP" : "0.647710,
+  "GBP" : 0.647710,
   "HKD" : 7.781919,
   "USD" : 1,
 }
