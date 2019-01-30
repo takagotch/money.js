@@ -2,7 +2,10 @@
 ---
 https://github.com/wjcrowcroft/money.js
 
+#### open exchange rates
+https://openexchangerates.org/
 https://github.com/openexchangerates
+
 ```js
 fx.convert(12.99, {from: "GBP", to: "HKD"});
 fx(1000).from("USD").to("GBP");
@@ -79,7 +82,7 @@ require(["path/to/money"], function(fx){
 });
 ```
 
-```
+```html
 <script src="path/to/money.js"></script>
 
 <script type="text/javascript">
